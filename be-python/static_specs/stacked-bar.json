@@ -1,0 +1,116 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300
+    }
+  },
+  "data": {
+    "name": "data-7c690f5fcd1199a3903e808b44acae20"
+  },
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "color": {
+      "field": "channel",
+      "legend": {
+        "title": "Channel"
+      },
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "quarter",
+        "type": "nominal"
+      },
+      {
+        "field": "channel",
+        "type": "nominal"
+      },
+      {
+        "field": "revenue",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "field": "quarter",
+      "title": "Quarter",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "revenue",
+      "stack": "zero",
+      "title": "Revenue ($)",
+      "type": "quantitative"
+    }
+  },
+  "height": 300,
+  "title": "Revenue by Channel",
+  "width": 500,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-7c690f5fcd1199a3903e808b44acae20": [
+      {
+        "quarter": "Q1",
+        "channel": "Online",
+        "revenue": 61905
+      },
+      {
+        "quarter": "Q1",
+        "channel": "Retail",
+        "revenue": 27296
+      },
+      {
+        "quarter": "Q1",
+        "channel": "Wholesale",
+        "revenue": 21639
+      },
+      {
+        "quarter": "Q2",
+        "channel": "Online",
+        "revenue": 68598
+      },
+      {
+        "quarter": "Q2",
+        "channel": "Retail",
+        "revenue": 38024
+      },
+      {
+        "quarter": "Q2",
+        "channel": "Wholesale",
+        "revenue": 36049
+      },
+      {
+        "quarter": "Q3",
+        "channel": "Online",
+        "revenue": 34628
+      },
+      {
+        "quarter": "Q3",
+        "channel": "Retail",
+        "revenue": 29144
+      },
+      {
+        "quarter": "Q3",
+        "channel": "Wholesale",
+        "revenue": 68265
+      },
+      {
+        "quarter": "Q4",
+        "channel": "Online",
+        "revenue": 26717
+      },
+      {
+        "quarter": "Q4",
+        "channel": "Retail",
+        "revenue": 64348
+      },
+      {
+        "quarter": "Q4",
+        "channel": "Wholesale",
+        "revenue": 68540
+      }
+    ]
+  }
+}

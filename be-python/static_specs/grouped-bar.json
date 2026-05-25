@@ -1,0 +1,99 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300
+    }
+  },
+  "data": {
+    "name": "data-6068e18a028e505955e05d4c0236d2b0"
+  },
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "color": {
+      "field": "year",
+      "legend": {
+        "title": "Year"
+      },
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "quarter",
+        "type": "nominal"
+      },
+      {
+        "field": "year",
+        "type": "nominal"
+      },
+      {
+        "field": "revenue",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "field": "quarter",
+      "title": "Quarter",
+      "type": "nominal"
+    },
+    "xOffset": {
+      "field": "year",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "revenue",
+      "title": "Revenue ($)",
+      "type": "quantitative"
+    }
+  },
+  "height": 300,
+  "title": "Year-over-Year Comparison",
+  "width": 500,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-6068e18a028e505955e05d4c0236d2b0": [
+      {
+        "quarter": "Q1",
+        "year": "2023",
+        "revenue": 81905
+      },
+      {
+        "quarter": "Q1",
+        "year": "2024",
+        "revenue": 47296
+      },
+      {
+        "quarter": "Q2",
+        "year": "2023",
+        "revenue": 41639
+      },
+      {
+        "quarter": "Q2",
+        "year": "2024",
+        "revenue": 88598
+      },
+      {
+        "quarter": "Q3",
+        "year": "2023",
+        "revenue": 58024
+      },
+      {
+        "quarter": "Q3",
+        "year": "2024",
+        "revenue": 56049
+      },
+      {
+        "quarter": "Q4",
+        "year": "2023",
+        "revenue": 54628
+      },
+      {
+        "quarter": "Q4",
+        "year": "2024",
+        "revenue": 49144
+      }
+    ]
+  }
+}

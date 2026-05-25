@@ -1,0 +1,306 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300
+    }
+  },
+  "data": {
+    "name": "data-df5691007b21323b7ea8dbbec5a2c501"
+  },
+  "mark": {
+    "type": "circle",
+    "size": 60
+  },
+  "encoding": {
+    "color": {
+      "field": "category",
+      "legend": {
+        "title": "Category"
+      },
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "price",
+        "type": "quantitative"
+      },
+      {
+        "field": "volume",
+        "type": "quantitative"
+      },
+      {
+        "field": "category",
+        "type": "nominal"
+      }
+    ],
+    "x": {
+      "field": "price",
+      "title": "Price ($)",
+      "type": "quantitative"
+    },
+    "y": {
+      "field": "volume",
+      "title": "Volume",
+      "type": "quantitative"
+    }
+  },
+  "height": 300,
+  "title": "Price vs Volume",
+  "width": 500,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-df5691007b21323b7ea8dbbec5a2c501": [
+      {
+        "price": 67.54841186120953,
+        "volume": 433,
+        "category": "A"
+      },
+      {
+        "price": 12.250967970040024,
+        "volume": 843,
+        "category": "C"
+      },
+      {
+        "price": 34.75263865322073,
+        "volume": 675,
+        "category": "C"
+      },
+      {
+        "price": 30.08896643339405,
+        "volume": 846,
+        "category": "A"
+      },
+      {
+        "price": 76.28240927476112,
+        "volume": 419,
+        "category": "C"
+      },
+      {
+        "price": 70.90295386806201,
+        "volume": 454,
+        "category": "C"
+      },
+      {
+        "price": 90.29616109343608,
+        "volume": 211,
+        "category": "B"
+      },
+      {
+        "price": 17.824494936647454,
+        "volume": 903,
+        "category": "C"
+      },
+      {
+        "price": 47.97296377167434,
+        "volume": 548,
+        "category": "B"
+      },
+      {
+        "price": 12.68174974942633,
+        "volume": 874,
+        "category": "A"
+      },
+      {
+        "price": 29.6774177323243,
+        "volume": 860,
+        "category": "B"
+      },
+      {
+        "price": 55.481975929302614,
+        "volume": 584,
+        "category": "B"
+      },
+      {
+        "price": 12.388237271547727,
+        "volume": 912,
+        "category": "A"
+      },
+      {
+        "price": 27.895388561798363,
+        "volume": 813,
+        "category": "B"
+      },
+      {
+        "price": 68.48959940015709,
+        "volume": 520,
+        "category": "A"
+      },
+      {
+        "price": 59.044733254289504,
+        "volume": 582,
+        "category": "C"
+      },
+      {
+        "price": 29.839655983662702,
+        "volume": 707,
+        "category": "C"
+      },
+      {
+        "price": 63.03391154883178,
+        "volume": 402,
+        "category": "B"
+      },
+      {
+        "price": 82.84874110100439,
+        "volume": 300,
+        "category": "C"
+      },
+      {
+        "price": 10.584888371025492,
+        "volume": 868,
+        "category": "A"
+      },
+      {
+        "price": 82.5237326649527,
+        "volume": 282,
+        "category": "C"
+      },
+      {
+        "price": 72.83254554894042,
+        "volume": 505,
+        "category": "A"
+      },
+      {
+        "price": 40.62254648661927,
+        "volume": 750,
+        "category": "C"
+      },
+      {
+        "price": 23.99315498306034,
+        "volume": 770,
+        "category": "B"
+      },
+      {
+        "price": 96.1491764986103,
+        "volume": 261,
+        "category": "C"
+      },
+      {
+        "price": 40.29350906013641,
+        "volume": 656,
+        "category": "C"
+      },
+      {
+        "price": 18.347125904213314,
+        "volume": 936,
+        "category": "C"
+      },
+      {
+        "price": 18.70447391501176,
+        "volume": 842,
+        "category": "A"
+      },
+      {
+        "price": 86.27449297127139,
+        "volume": 262,
+        "category": "A"
+      },
+      {
+        "price": 64.3353428230202,
+        "volume": 434,
+        "category": "B"
+      },
+      {
+        "price": 82.64154459469422,
+        "volume": 351,
+        "category": "A"
+      },
+      {
+        "price": 75.67586080244361,
+        "volume": 347,
+        "category": "C"
+      },
+      {
+        "price": 58.260528230923065,
+        "volume": 550,
+        "category": "C"
+      },
+      {
+        "price": 97.58041875814335,
+        "volume": 298,
+        "category": "A"
+      },
+      {
+        "price": 44.068093948751816,
+        "volume": 627,
+        "category": "C"
+      },
+      {
+        "price": 59.68365681459043,
+        "volume": 466,
+        "category": "B"
+      },
+      {
+        "price": 84.64641978276954,
+        "volume": 422,
+        "category": "B"
+      },
+      {
+        "price": 65.66677771278214,
+        "volume": 476,
+        "category": "A"
+      },
+      {
+        "price": 87.55362102796995,
+        "volume": 217,
+        "category": "A"
+      },
+      {
+        "price": 61.961693073108584,
+        "volume": 413,
+        "category": "B"
+      },
+      {
+        "price": 73.41146525934312,
+        "volume": 334,
+        "category": "B"
+      },
+      {
+        "price": 14.1241945290096,
+        "volume": 912,
+        "category": "A"
+      },
+      {
+        "price": 30.510844808639217,
+        "volume": 814,
+        "category": "A"
+      },
+      {
+        "price": 36.04491672418965,
+        "volume": 696,
+        "category": "A"
+      },
+      {
+        "price": 17.181277923126473,
+        "volume": 775,
+        "category": "C"
+      },
+      {
+        "price": 30.951179772492715,
+        "volume": 728,
+        "category": "A"
+      },
+      {
+        "price": 19.09012864687562,
+        "volume": 946,
+        "category": "A"
+      },
+      {
+        "price": 35.01762427990829,
+        "volume": 725,
+        "category": "C"
+      },
+      {
+        "price": 67.21159998379602,
+        "volume": 556,
+        "category": "B"
+      },
+      {
+        "price": 42.83489610730758,
+        "volume": 729,
+        "category": "A"
+      }
+    ]
+  }
+}

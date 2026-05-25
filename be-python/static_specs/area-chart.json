@@ -1,0 +1,94 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300
+    }
+  },
+  "data": {
+    "name": "data-475196551994eabeed0c38a532876392"
+  },
+  "mark": {
+    "type": "area",
+    "opacity": 0.7
+  },
+  "encoding": {
+    "tooltip": [
+      {
+        "field": "month",
+        "type": "nominal"
+      },
+      {
+        "field": "revenue",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "field": "month",
+      "sort": null,
+      "title": "Month",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "revenue",
+      "title": "Revenue ($)",
+      "type": "quantitative"
+    }
+  },
+  "height": 300,
+  "title": "Cumulative Revenue",
+  "width": 500,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-475196551994eabeed0c38a532876392": [
+      {
+        "month": "Jan",
+        "revenue": 46824
+      },
+      {
+        "month": "Feb",
+        "revenue": 50409
+      },
+      {
+        "month": "Mar",
+        "revenue": 59506
+      },
+      {
+        "month": "Apr",
+        "revenue": 64012
+      },
+      {
+        "month": "May",
+        "revenue": 68657
+      },
+      {
+        "month": "Jun",
+        "revenue": 72286
+      },
+      {
+        "month": "Jul",
+        "revenue": 76679
+      },
+      {
+        "month": "Aug",
+        "revenue": 88935
+      },
+      {
+        "month": "Sep",
+        "revenue": 86424
+      },
+      {
+        "month": "Oct",
+        "revenue": 99674
+      },
+      {
+        "month": "Nov",
+        "revenue": 101912
+      },
+      {
+        "month": "Dec",
+        "revenue": 100520
+      }
+    ]
+  }
+}

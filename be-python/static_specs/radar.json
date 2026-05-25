@@ -1,0 +1,174 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "arc",
+        "innerRadius": 0,
+        "opacity": 0.3,
+        "stroke": null
+      },
+      "encoding": {
+        "color": {
+          "field": "product",
+          "legend": {
+            "title": "Product"
+          },
+          "type": "nominal"
+        },
+        "radius": {
+          "field": "score",
+          "scale": {
+            "domain": [
+              0,
+              10
+            ],
+            "type": "linear"
+          },
+          "type": "quantitative"
+        },
+        "theta": {
+          "field": "metric",
+          "stack": null,
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "product",
+            "type": "nominal"
+          },
+          {
+            "field": "metric",
+            "type": "nominal"
+          },
+          {
+            "field": "score",
+            "type": "quantitative"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "point": true,
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "color": {
+          "field": "product",
+          "legend": {
+            "title": "Product"
+          },
+          "type": "nominal"
+        },
+        "radius": {
+          "field": "score",
+          "scale": {
+            "domain": [
+              0,
+              10
+            ],
+            "type": "linear"
+          },
+          "type": "quantitative"
+        },
+        "theta": {
+          "field": "metric",
+          "stack": null,
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "product",
+            "type": "nominal"
+          },
+          {
+            "field": "metric",
+            "type": "nominal"
+          },
+          {
+            "field": "score",
+            "type": "quantitative"
+          }
+        ]
+      }
+    }
+  ],
+  "data": {
+    "name": "data-a7db5ded1bb7f3a9c436835e7988496e"
+  },
+  "height": 400,
+  "title": "Product Comparison Radar",
+  "width": 400,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-a7db5ded1bb7f3a9c436835e7988496e": [
+      {
+        "metric": "Speed",
+        "product": "Product A",
+        "score": 8
+      },
+      {
+        "metric": "Quality",
+        "product": "Product A",
+        "score": 7
+      },
+      {
+        "metric": "Cost",
+        "product": "Product A",
+        "score": 6
+      },
+      {
+        "metric": "Reliability",
+        "product": "Product A",
+        "score": 9
+      },
+      {
+        "metric": "Innovation",
+        "product": "Product A",
+        "score": 7
+      },
+      {
+        "metric": "Support",
+        "product": "Product A",
+        "score": 8
+      },
+      {
+        "metric": "Speed",
+        "product": "Product B",
+        "score": 6
+      },
+      {
+        "metric": "Quality",
+        "product": "Product B",
+        "score": 9
+      },
+      {
+        "metric": "Cost",
+        "product": "Product B",
+        "score": 8
+      },
+      {
+        "metric": "Reliability",
+        "product": "Product B",
+        "score": 7
+      },
+      {
+        "metric": "Innovation",
+        "product": "Product B",
+        "score": 8
+      },
+      {
+        "metric": "Support",
+        "product": "Product B",
+        "score": 7
+      }
+    ]
+  }
+}

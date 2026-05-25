@@ -1,0 +1,639 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300
+    }
+  },
+  "data": {
+    "name": "data-549262c52e9a162ac09d973020eb012d"
+  },
+  "mark": {
+    "type": "boxplot"
+  },
+  "encoding": {
+    "color": {
+      "field": "species",
+      "legend": null,
+      "type": "nominal"
+    },
+    "x": {
+      "field": "species",
+      "title": "Species",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "value",
+      "title": "Value",
+      "type": "quantitative"
+    }
+  },
+  "height": 300,
+  "title": "Distribution by Species",
+  "width": 500,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-549262c52e9a162ac09d973020eb012d": [
+      {
+        "species": "Setosa",
+        "value": 6.314352765848547
+      },
+      {
+        "species": "Setosa",
+        "value": 5.981039533225282
+      },
+      {
+        "species": "Setosa",
+        "value": 6.055079898652843
+      },
+      {
+        "species": "Setosa",
+        "value": 6.72331594260533
+      },
+      {
+        "species": "Setosa",
+        "value": 5.449254784657034
+      },
+      {
+        "species": "Setosa",
+        "value": 4.972944991261653
+      },
+      {
+        "species": "Setosa",
+        "value": 6.365575375204353
+      },
+      {
+        "species": "Setosa",
+        "value": 6.190218404332492
+      },
+      {
+        "species": "Setosa",
+        "value": 6.2633668949559524
+      },
+      {
+        "species": "Setosa",
+        "value": 5.983653599256793
+      },
+      {
+        "species": "Setosa",
+        "value": 5.8023839649546405
+      },
+      {
+        "species": "Setosa",
+        "value": 5.914379208850897
+      },
+      {
+        "species": "Setosa",
+        "value": 6.147155794713824
+      },
+      {
+        "species": "Setosa",
+        "value": 6.605566400023944
+      },
+      {
+        "species": "Setosa",
+        "value": 5.57939086809314
+      },
+      {
+        "species": "Setosa",
+        "value": 5.819958994941177
+      },
+      {
+        "species": "Setosa",
+        "value": 5.147342716281771
+      },
+      {
+        "species": "Setosa",
+        "value": 5.434003468328832
+      },
+      {
+        "species": "Setosa",
+        "value": 6.822778789252915
+      },
+      {
+        "species": "Setosa",
+        "value": 5.955234238409374
+      },
+      {
+        "species": "Setosa",
+        "value": 5.772304370698617
+      },
+      {
+        "species": "Setosa",
+        "value": 5.4862635629824075
+      },
+      {
+        "species": "Setosa",
+        "value": 6.6207287473578775
+      },
+      {
+        "species": "Setosa",
+        "value": 6.958630162045321
+      },
+      {
+        "species": "Setosa",
+        "value": 5.804086849607784
+      },
+      {
+        "species": "Setosa",
+        "value": 6.107029328550497
+      },
+      {
+        "species": "Setosa",
+        "value": 6.714358441378678
+      },
+      {
+        "species": "Setosa",
+        "value": 6.471937884698403
+      },
+      {
+        "species": "Setosa",
+        "value": 5.197088357599295
+      },
+      {
+        "species": "Setosa",
+        "value": 5.368055882694054
+      },
+      {
+        "species": "Setosa",
+        "value": 5.839559707488558
+      },
+      {
+        "species": "Setosa",
+        "value": 5.303476145783603
+      },
+      {
+        "species": "Setosa",
+        "value": 6.399024931638795
+      },
+      {
+        "species": "Setosa",
+        "value": 5.836292394570459
+      },
+      {
+        "species": "Setosa",
+        "value": 5.02776749394587
+      },
+      {
+        "species": "Setosa",
+        "value": 5.616258434775707
+      },
+      {
+        "species": "Setosa",
+        "value": 5.186961769220165
+      },
+      {
+        "species": "Setosa",
+        "value": 5.244215832655298
+      },
+      {
+        "species": "Setosa",
+        "value": 5.2278879285030975
+      },
+      {
+        "species": "Setosa",
+        "value": 5.553557174544065
+      },
+      {
+        "species": "Setosa",
+        "value": 6.263087480383927
+      },
+      {
+        "species": "Setosa",
+        "value": 6.020395816835344
+      },
+      {
+        "species": "Setosa",
+        "value": 5.868330839071594
+      },
+      {
+        "species": "Setosa",
+        "value": 6.115974105578915
+      },
+      {
+        "species": "Setosa",
+        "value": 5.943180330675792
+      },
+      {
+        "species": "Setosa",
+        "value": 6.147664157827948
+      },
+      {
+        "species": "Setosa",
+        "value": 5.794035498820185
+      },
+      {
+        "species": "Setosa",
+        "value": 6.617873593916676
+      },
+      {
+        "species": "Setosa",
+        "value": 5.600707108688497
+      },
+      {
+        "species": "Setosa",
+        "value": 6.279263196501643
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.503463306815771
+      },
+      {
+        "species": "Versicolor",
+        "value": 5.796398203554737
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.218874821221216
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.079083792363384
+      },
+      {
+        "species": "Versicolor",
+        "value": 5.0127578500493115
+      },
+      {
+        "species": "Versicolor",
+        "value": 5.339446082986195
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.8813674377340925
+      },
+      {
+        "species": "Versicolor",
+        "value": 5.046429765298299
+      },
+      {
+        "species": "Versicolor",
+        "value": 5.341693581035544
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.581507354306311
+      },
+      {
+        "species": "Versicolor",
+        "value": 3.9170416257449743
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.362482818155106
+      },
+      {
+        "species": "Versicolor",
+        "value": 5.1049689709727515
+      },
+      {
+        "species": "Versicolor",
+        "value": 3.906681889275319
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.645286752708094
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.755139771985494
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.4707250099076274
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.990337085498511
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.918910963077746
+      },
+      {
+        "species": "Versicolor",
+        "value": 5.789225350764829
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.93850497620103
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.323819362992932
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.347622296147447
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.2127305416934595
+      },
+      {
+        "species": "Versicolor",
+        "value": 5.104657872222373
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.3451046749076125
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.593390705464164
+      },
+      {
+        "species": "Versicolor",
+        "value": 5.003172401959301
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.26678959698876
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.481692110505604
+      },
+      {
+        "species": "Versicolor",
+        "value": 3.707877959512505
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.087281782795106
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.344652886218538
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.836401586572799
+      },
+      {
+        "species": "Versicolor",
+        "value": 5.225267728536111
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.619287685732607
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.7592032319143645
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.712505776588079
+      },
+      {
+        "species": "Versicolor",
+        "value": 5.170891649041264
+      },
+      {
+        "species": "Versicolor",
+        "value": 5.075198691683566
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.765367750018234
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.123048940591807
+      },
+      {
+        "species": "Versicolor",
+        "value": 5.08021374948676
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.819044656292339
+      },
+      {
+        "species": "Versicolor",
+        "value": 5.241991867171573
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.613567795973856
+      },
+      {
+        "species": "Versicolor",
+        "value": 5.605071554556385
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.4490829221535515
+      },
+      {
+        "species": "Versicolor",
+        "value": 5.425051299445984
+      },
+      {
+        "species": "Versicolor",
+        "value": 4.686080578618079
+      },
+      {
+        "species": "Virginica",
+        "value": 5.661775674596385
+      },
+      {
+        "species": "Virginica",
+        "value": 5.9544438848274615
+      },
+      {
+        "species": "Virginica",
+        "value": 5.891253374886212
+      },
+      {
+        "species": "Virginica",
+        "value": 5.856819342753473
+      },
+      {
+        "species": "Virginica",
+        "value": 5.5408429005663
+      },
+      {
+        "species": "Virginica",
+        "value": 6.264239765520338
+      },
+      {
+        "species": "Virginica",
+        "value": 7.0237745615818
+      },
+      {
+        "species": "Virginica",
+        "value": 5.752896244934397
+      },
+      {
+        "species": "Virginica",
+        "value": 5.995622336458903
+      },
+      {
+        "species": "Virginica",
+        "value": 6.632250284725194
+      },
+      {
+        "species": "Virginica",
+        "value": 6.523630650132795
+      },
+      {
+        "species": "Virginica",
+        "value": 7.040031843241437
+      },
+      {
+        "species": "Virginica",
+        "value": 6.334313120974968
+      },
+      {
+        "species": "Virginica",
+        "value": 5.7391873152644335
+      },
+      {
+        "species": "Virginica",
+        "value": 5.604899170000921
+      },
+      {
+        "species": "Virginica",
+        "value": 5.520077195814265
+      },
+      {
+        "species": "Virginica",
+        "value": 6.531158344120389
+      },
+      {
+        "species": "Virginica",
+        "value": 6.739821030805155
+      },
+      {
+        "species": "Virginica",
+        "value": 5.2032703044558515
+      },
+      {
+        "species": "Virginica",
+        "value": 5.832475704826718
+      },
+      {
+        "species": "Virginica",
+        "value": 6.028525338397254
+      },
+      {
+        "species": "Virginica",
+        "value": 6.041925127054949
+      },
+      {
+        "species": "Virginica",
+        "value": 6.000578573970103
+      },
+      {
+        "species": "Virginica",
+        "value": 6.1337286721051045
+      },
+      {
+        "species": "Virginica",
+        "value": 6.971943378336376
+      },
+      {
+        "species": "Virginica",
+        "value": 5.602577794881804
+      },
+      {
+        "species": "Virginica",
+        "value": 6.255550265124124
+      },
+      {
+        "species": "Virginica",
+        "value": 5.671691021739502
+      },
+      {
+        "species": "Virginica",
+        "value": 7.003573916905089
+      },
+      {
+        "species": "Virginica",
+        "value": 6.410225396224955
+      },
+      {
+        "species": "Virginica",
+        "value": 6.245080569365794
+      },
+      {
+        "species": "Virginica",
+        "value": 5.97589943381731
+      },
+      {
+        "species": "Virginica",
+        "value": 5.856491254178455
+      },
+      {
+        "species": "Virginica",
+        "value": 6.061779058736724
+      },
+      {
+        "species": "Virginica",
+        "value": 6.10184384859645
+      },
+      {
+        "species": "Virginica",
+        "value": 5.195044588933732
+      },
+      {
+        "species": "Virginica",
+        "value": 6.4380111617739395
+      },
+      {
+        "species": "Virginica",
+        "value": 6.4551222956331324
+      },
+      {
+        "species": "Virginica",
+        "value": 5.67178335027372
+      },
+      {
+        "species": "Virginica",
+        "value": 5.9243322372789065
+      },
+      {
+        "species": "Virginica",
+        "value": 6.409962825168505
+      },
+      {
+        "species": "Virginica",
+        "value": 5.668336905637995
+      },
+      {
+        "species": "Virginica",
+        "value": 6.1931172789798845
+      },
+      {
+        "species": "Virginica",
+        "value": 6.649779725367563
+      },
+      {
+        "species": "Virginica",
+        "value": 6.0029880117732475
+      },
+      {
+        "species": "Virginica",
+        "value": 5.712692138473402
+      },
+      {
+        "species": "Virginica",
+        "value": 5.427919816080897
+      },
+      {
+        "species": "Virginica",
+        "value": 7.556214225263254
+      },
+      {
+        "species": "Virginica",
+        "value": 5.729241618506097
+      },
+      {
+        "species": "Virginica",
+        "value": 5.611046327214075
+      }
+    ]
+  }
+}

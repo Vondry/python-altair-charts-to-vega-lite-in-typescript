@@ -1,0 +1,98 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300
+    }
+  },
+  "data": {
+    "name": "data-6893738fd4bee713d1ae9dc69473cbf6"
+  },
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "color": {
+      "field": "type",
+      "legend": {
+        "title": "Type"
+      },
+      "scale": {
+        "domain": [
+          "total",
+          "increase",
+          "decrease"
+        ],
+        "range": [
+          "#4682b4",
+          "#90ee90",
+          "#ff6b6b"
+        ]
+      },
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "category",
+        "type": "nominal"
+      },
+      {
+        "field": "amount",
+        "type": "quantitative"
+      },
+      {
+        "field": "type",
+        "type": "nominal"
+      }
+    ],
+    "x": {
+      "field": "category",
+      "sort": null,
+      "title": "Category",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "amount",
+      "title": "Amount ($)",
+      "type": "quantitative"
+    }
+  },
+  "height": 300,
+  "title": "Financial Waterfall",
+  "width": 500,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-6893738fd4bee713d1ae9dc69473cbf6": [
+      {
+        "category": "Starting",
+        "amount": 100000,
+        "type": "total"
+      },
+      {
+        "category": "Revenue",
+        "amount": 50000,
+        "type": "increase"
+      },
+      {
+        "category": "Costs",
+        "amount": -20000,
+        "type": "decrease"
+      },
+      {
+        "category": "Marketing",
+        "amount": -15000,
+        "type": "decrease"
+      },
+      {
+        "category": "R&D",
+        "amount": -10000,
+        "type": "decrease"
+      },
+      {
+        "category": "Ending",
+        "amount": 105000,
+        "type": "total"
+      }
+    ]
+  }
+}

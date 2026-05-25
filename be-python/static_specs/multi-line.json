@@ -1,0 +1,256 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300
+    }
+  },
+  "data": {
+    "name": "data-800176fc7dfd28302e1e6d1fffa005ba"
+  },
+  "mark": {
+    "type": "line",
+    "point": true
+  },
+  "encoding": {
+    "color": {
+      "field": "product",
+      "legend": {
+        "title": "Product"
+      },
+      "type": "nominal"
+    },
+    "opacity": {
+      "condition": {
+        "param": "param_1",
+        "value": 1
+      },
+      "value": 0.2
+    },
+    "tooltip": [
+      {
+        "field": "product",
+        "type": "nominal"
+      },
+      {
+        "field": "month",
+        "type": "nominal"
+      },
+      {
+        "field": "sales",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "field": "month",
+      "sort": null,
+      "title": "Month",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "sales",
+      "title": "Sales",
+      "type": "quantitative"
+    }
+  },
+  "height": 300,
+  "params": [
+    {
+      "name": "param_1",
+      "select": {
+        "type": "point",
+        "fields": [
+          "product"
+        ]
+      },
+      "bind": "legend"
+    }
+  ],
+  "title": "Product Sales Comparison",
+  "width": 500,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-800176fc7dfd28302e1e6d1fffa005ba": [
+      {
+        "month": "Jan",
+        "sales": 118,
+        "product": "Product A"
+      },
+      {
+        "month": "Feb",
+        "sales": 117,
+        "product": "Product A"
+      },
+      {
+        "month": "Mar",
+        "sales": 168,
+        "product": "Product A"
+      },
+      {
+        "month": "Apr",
+        "sales": 143,
+        "product": "Product A"
+      },
+      {
+        "month": "May",
+        "sales": 146,
+        "product": "Product A"
+      },
+      {
+        "month": "Jun",
+        "sales": 150,
+        "product": "Product A"
+      },
+      {
+        "month": "Jul",
+        "sales": 149,
+        "product": "Product A"
+      },
+      {
+        "month": "Aug",
+        "sales": 193,
+        "product": "Product A"
+      },
+      {
+        "month": "Sep",
+        "sales": 157,
+        "product": "Product A"
+      },
+      {
+        "month": "Oct",
+        "sales": 199,
+        "product": "Product A"
+      },
+      {
+        "month": "Nov",
+        "sales": 208,
+        "product": "Product A"
+      },
+      {
+        "month": "Dec",
+        "sales": 200,
+        "product": "Product A"
+      },
+      {
+        "month": "Jan",
+        "sales": 78,
+        "product": "Product B"
+      },
+      {
+        "month": "Feb",
+        "sales": 73,
+        "product": "Product B"
+      },
+      {
+        "month": "Mar",
+        "sales": 53,
+        "product": "Product B"
+      },
+      {
+        "month": "Apr",
+        "sales": 57,
+        "product": "Product B"
+      },
+      {
+        "month": "May",
+        "sales": 66,
+        "product": "Product B"
+      },
+      {
+        "month": "Jun",
+        "sales": 79,
+        "product": "Product B"
+      },
+      {
+        "month": "Jul",
+        "sales": 85,
+        "product": "Product B"
+      },
+      {
+        "month": "Aug",
+        "sales": 108,
+        "product": "Product B"
+      },
+      {
+        "month": "Sep",
+        "sales": 119,
+        "product": "Product B"
+      },
+      {
+        "month": "Oct",
+        "sales": 87,
+        "product": "Product B"
+      },
+      {
+        "month": "Nov",
+        "sales": 126,
+        "product": "Product B"
+      },
+      {
+        "month": "Dec",
+        "sales": 108,
+        "product": "Product B"
+      },
+      {
+        "month": "Jan",
+        "sales": 162,
+        "product": "Product C"
+      },
+      {
+        "month": "Feb",
+        "sales": 170,
+        "product": "Product C"
+      },
+      {
+        "month": "Mar",
+        "sales": 165,
+        "product": "Product C"
+      },
+      {
+        "month": "Apr",
+        "sales": 162,
+        "product": "Product C"
+      },
+      {
+        "month": "May",
+        "sales": 155,
+        "product": "Product C"
+      },
+      {
+        "month": "Jun",
+        "sales": 174,
+        "product": "Product C"
+      },
+      {
+        "month": "Jul",
+        "sales": 188,
+        "product": "Product C"
+      },
+      {
+        "month": "Aug",
+        "sales": 173,
+        "product": "Product C"
+      },
+      {
+        "month": "Sep",
+        "sales": 161,
+        "product": "Product C"
+      },
+      {
+        "month": "Oct",
+        "sales": 214,
+        "product": "Product C"
+      },
+      {
+        "month": "Nov",
+        "sales": 181,
+        "product": "Product C"
+      },
+      {
+        "month": "Dec",
+        "sales": 220,
+        "product": "Product C"
+      }
+    ]
+  }
+}

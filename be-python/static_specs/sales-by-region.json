@@ -1,0 +1,70 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300
+    }
+  },
+  "data": {
+    "name": "data-93f0ca1af670d88b3178371c3b739704"
+  },
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "color": {
+      "field": "region",
+      "legend": null,
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "region",
+        "type": "nominal"
+      },
+      {
+        "field": "sales",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "field": "sales",
+      "title": "Sales ($)",
+      "type": "quantitative"
+    },
+    "y": {
+      "field": "region",
+      "sort": "-x",
+      "title": "Region",
+      "type": "nominal"
+    }
+  },
+  "height": 300,
+  "title": "Sales by Region",
+  "width": 500,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-93f0ca1af670d88b3178371c3b739704": [
+      {
+        "region": "North",
+        "sales": 45000
+      },
+      {
+        "region": "South",
+        "sales": 38000
+      },
+      {
+        "region": "East",
+        "sales": 52000
+      },
+      {
+        "region": "West",
+        "sales": 41000
+      },
+      {
+        "region": "Central",
+        "sales": 47000
+      }
+    ]
+  }
+}

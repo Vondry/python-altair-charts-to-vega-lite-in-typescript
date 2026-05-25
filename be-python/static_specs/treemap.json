@@ -1,0 +1,107 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300
+    }
+  },
+  "data": {
+    "name": "data-dd5327e3ed786f4dee0538d931066eb0"
+  },
+  "mark": {
+    "type": "rect"
+  },
+  "encoding": {
+    "color": {
+      "field": "category",
+      "legend": {
+        "title": "Category"
+      },
+      "type": "nominal"
+    },
+    "facet": {
+      "columns": 3,
+      "field": "subcategory",
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "category",
+        "type": "nominal"
+      },
+      {
+        "field": "subcategory",
+        "type": "nominal"
+      },
+      {
+        "field": "value",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "aggregate": "sum",
+      "axis": null,
+      "field": "value",
+      "stack": "zero",
+      "type": "quantitative"
+    },
+    "y": {
+      "axis": null,
+      "field": "category",
+      "type": "nominal"
+    }
+  },
+  "height": 100,
+  "title": "Sales Treemap",
+  "width": 150,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-dd5327e3ed786f4dee0538d931066eb0": [
+      {
+        "category": "Electronics",
+        "subcategory": "Phones",
+        "value": 3619
+      },
+      {
+        "category": "Electronics",
+        "subcategory": "Laptops",
+        "value": 1456
+      },
+      {
+        "category": "Electronics",
+        "subcategory": "Tablets",
+        "value": 1102
+      },
+      {
+        "category": "Clothing",
+        "subcategory": "Shirts",
+        "value": 4037
+      },
+      {
+        "category": "Clothing",
+        "subcategory": "Pants",
+        "value": 2126
+      },
+      {
+        "category": "Clothing",
+        "subcategory": "Shoes",
+        "value": 2003
+      },
+      {
+        "category": "Food",
+        "subcategory": "Snacks",
+        "value": 1914
+      },
+      {
+        "category": "Food",
+        "subcategory": "Beverages",
+        "value": 1571
+      },
+      {
+        "category": "Food",
+        "subcategory": "Frozen",
+        "value": 4016
+      }
+    ]
+  }
+}

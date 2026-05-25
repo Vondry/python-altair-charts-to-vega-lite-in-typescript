@@ -1,0 +1,66 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300
+    }
+  },
+  "data": {
+    "name": "data-d0dd959b0810d28665da1e808bf39fb7"
+  },
+  "mark": {
+    "type": "arc",
+    "innerRadius": 50
+  },
+  "encoding": {
+    "color": {
+      "field": "category",
+      "legend": {
+        "title": "Category"
+      },
+      "type": "nominal"
+    },
+    "theta": {
+      "field": "value",
+      "type": "quantitative"
+    },
+    "tooltip": [
+      {
+        "field": "category",
+        "type": "nominal"
+      },
+      {
+        "field": "value",
+        "type": "quantitative"
+      }
+    ]
+  },
+  "height": 300,
+  "title": "Product Distribution",
+  "width": 500,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-d0dd959b0810d28665da1e808bf39fb7": [
+      {
+        "category": "Electronics",
+        "value": 35
+      },
+      {
+        "category": "Clothing",
+        "value": 25
+      },
+      {
+        "category": "Food",
+        "value": 20
+      },
+      {
+        "category": "Books",
+        "value": 12
+      },
+      {
+        "category": "Home & Garden",
+        "value": 8
+      }
+    ]
+  }
+}

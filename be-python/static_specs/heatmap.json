@@ -1,0 +1,382 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300
+    }
+  },
+  "data": {
+    "name": "data-5ba8cf5a9e5d4b33c0e25a67013e1389"
+  },
+  "mark": {
+    "type": "rect"
+  },
+  "encoding": {
+    "color": {
+      "field": "activity",
+      "legend": {
+        "title": "Activity"
+      },
+      "scale": {
+        "scheme": "blues"
+      },
+      "type": "quantitative"
+    },
+    "tooltip": [
+      {
+        "field": "day",
+        "type": "nominal"
+      },
+      {
+        "field": "hour",
+        "type": "nominal"
+      },
+      {
+        "field": "activity",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "field": "hour",
+      "title": "Hour",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "day",
+      "sort": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ],
+      "title": "Day",
+      "type": "nominal"
+    }
+  },
+  "height": 300,
+  "title": "Activity Heatmap",
+  "width": 500,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-5ba8cf5a9e5d4b33c0e25a67013e1389": [
+      {
+        "day": "Mon",
+        "hour": "9:00",
+        "activity": 91
+      },
+      {
+        "day": "Mon",
+        "hour": "10:00",
+        "activity": 24
+      },
+      {
+        "day": "Mon",
+        "hour": "11:00",
+        "activity": 13
+      },
+      {
+        "day": "Mon",
+        "hour": "12:00",
+        "activity": 45
+      },
+      {
+        "day": "Mon",
+        "hour": "13:00",
+        "activity": 41
+      },
+      {
+        "day": "Mon",
+        "hour": "14:00",
+        "activity": 38
+      },
+      {
+        "day": "Mon",
+        "hour": "15:00",
+        "activity": 27
+      },
+      {
+        "day": "Mon",
+        "hour": "16:00",
+        "activity": 23
+      },
+      {
+        "day": "Mon",
+        "hour": "17:00",
+        "activity": 96
+      },
+      {
+        "day": "Tue",
+        "hour": "9:00",
+        "activity": 79
+      },
+      {
+        "day": "Tue",
+        "hour": "10:00",
+        "activity": 21
+      },
+      {
+        "day": "Tue",
+        "hour": "11:00",
+        "activity": 85
+      },
+      {
+        "day": "Tue",
+        "hour": "12:00",
+        "activity": 64
+      },
+      {
+        "day": "Tue",
+        "hour": "13:00",
+        "activity": 14
+      },
+      {
+        "day": "Tue",
+        "hour": "14:00",
+        "activity": 13
+      },
+      {
+        "day": "Tue",
+        "hour": "15:00",
+        "activity": 21
+      },
+      {
+        "day": "Tue",
+        "hour": "16:00",
+        "activity": 37
+      },
+      {
+        "day": "Tue",
+        "hour": "17:00",
+        "activity": 39
+      },
+      {
+        "day": "Wed",
+        "hour": "9:00",
+        "activity": 74
+      },
+      {
+        "day": "Wed",
+        "hour": "10:00",
+        "activity": 87
+      },
+      {
+        "day": "Wed",
+        "hour": "11:00",
+        "activity": 13
+      },
+      {
+        "day": "Wed",
+        "hour": "12:00",
+        "activity": 81
+      },
+      {
+        "day": "Wed",
+        "hour": "13:00",
+        "activity": 35
+      },
+      {
+        "day": "Wed",
+        "hour": "14:00",
+        "activity": 93
+      },
+      {
+        "day": "Wed",
+        "hour": "15:00",
+        "activity": 99
+      },
+      {
+        "day": "Wed",
+        "hour": "16:00",
+        "activity": 79
+      },
+      {
+        "day": "Wed",
+        "hour": "17:00",
+        "activity": 63
+      },
+      {
+        "day": "Thu",
+        "hour": "9:00",
+        "activity": 38
+      },
+      {
+        "day": "Thu",
+        "hour": "10:00",
+        "activity": 67
+      },
+      {
+        "day": "Thu",
+        "hour": "11:00",
+        "activity": 85
+      },
+      {
+        "day": "Thu",
+        "hour": "12:00",
+        "activity": 45
+      },
+      {
+        "day": "Thu",
+        "hour": "13:00",
+        "activity": 10
+      },
+      {
+        "day": "Thu",
+        "hour": "14:00",
+        "activity": 30
+      },
+      {
+        "day": "Thu",
+        "hour": "15:00",
+        "activity": 99
+      },
+      {
+        "day": "Thu",
+        "hour": "16:00",
+        "activity": 64
+      },
+      {
+        "day": "Thu",
+        "hour": "17:00",
+        "activity": 53
+      },
+      {
+        "day": "Fri",
+        "hour": "9:00",
+        "activity": 45
+      },
+      {
+        "day": "Fri",
+        "hour": "10:00",
+        "activity": 29
+      },
+      {
+        "day": "Fri",
+        "hour": "11:00",
+        "activity": 37
+      },
+      {
+        "day": "Fri",
+        "hour": "12:00",
+        "activity": 53
+      },
+      {
+        "day": "Fri",
+        "hour": "13:00",
+        "activity": 23
+      },
+      {
+        "day": "Fri",
+        "hour": "14:00",
+        "activity": 21
+      },
+      {
+        "day": "Fri",
+        "hour": "15:00",
+        "activity": 58
+      },
+      {
+        "day": "Fri",
+        "hour": "16:00",
+        "activity": 22
+      },
+      {
+        "day": "Fri",
+        "hour": "17:00",
+        "activity": 55
+      },
+      {
+        "day": "Sat",
+        "hour": "9:00",
+        "activity": 54
+      },
+      {
+        "day": "Sat",
+        "hour": "10:00",
+        "activity": 87
+      },
+      {
+        "day": "Sat",
+        "hour": "11:00",
+        "activity": 43
+      },
+      {
+        "day": "Sat",
+        "hour": "12:00",
+        "activity": 15
+      },
+      {
+        "day": "Sat",
+        "hour": "13:00",
+        "activity": 68
+      },
+      {
+        "day": "Sat",
+        "hour": "14:00",
+        "activity": 78
+      },
+      {
+        "day": "Sat",
+        "hour": "15:00",
+        "activity": 25
+      },
+      {
+        "day": "Sat",
+        "hour": "16:00",
+        "activity": 58
+      },
+      {
+        "day": "Sat",
+        "hour": "17:00",
+        "activity": 20
+      },
+      {
+        "day": "Sun",
+        "hour": "9:00",
+        "activity": 80
+      },
+      {
+        "day": "Sun",
+        "hour": "10:00",
+        "activity": 47
+      },
+      {
+        "day": "Sun",
+        "hour": "11:00",
+        "activity": 90
+      },
+      {
+        "day": "Sun",
+        "hour": "12:00",
+        "activity": 89
+      },
+      {
+        "day": "Sun",
+        "hour": "13:00",
+        "activity": 56
+      },
+      {
+        "day": "Sun",
+        "hour": "14:00",
+        "activity": 83
+      },
+      {
+        "day": "Sun",
+        "hour": "15:00",
+        "activity": 34
+      },
+      {
+        "day": "Sun",
+        "hour": "16:00",
+        "activity": 100
+      },
+      {
+        "day": "Sun",
+        "hour": "17:00",
+        "activity": 18
+      }
+    ]
+  }
+}
